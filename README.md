@@ -1,20 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# POKEMON DATABASE
 
-## Getting Started
+Aplicación web para explorar y consultar información de Pokémon: tipos, habilidades y estadísticas base.
 
-First, run the development server:
+ **[VISITAR](https://pokemon-database-sage.vercel.app/)**
 
+ ![](assets/logo.png)
+
+---
+
+## Tecnologías
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+
+## Características
+
+- Visualización de pokemones, tipos, habilidades y estadísticas base, asi como regiones y objetos de el universo pokemon
+- Consumo de [PokéAPI](https://pokeapi.co/) (REST API pública)
+- Interfaz responsive
+
+ ![](assets/pokemones.png)
+
+## Instalación local
 ```bash
+git clone https://github.com/lopez580/pokemon-database
+cd pokemon-database
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-## CARACTERIZTICAS 
-Aplicación web desarrollada con Next.js y React que consume la PokéAPI para consultar y visualizar información de Pokémon. El proyecto permite explorar datos como tipos, habilidades y estadísticas, con el objetivo de reforzar conocimientos en consumo de APIs, manejo de estados y desarrollo moderno en frontend.
+## Aprendizajes
+
+Este proyecto fue desarrollado para practicar consumo de APIs REST, manejo de estado en React y desarrollo frontend moderno con TypeScript y Next.js.
